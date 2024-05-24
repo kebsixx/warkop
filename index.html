@@ -35,7 +35,7 @@
       <!-- shooping cart -->
       <div class="shopping-cart">
         <div class="cart-item">
-          <img src="img/products/coffee-package.jpg" alt="Product 1">
+          <img src="img/products/coffee-package.jpg" alt="Product 1" />
           <div class="item-detail">
             <h3>Product 1</h3>
             <div class="item-price">IDR 30k</div>
@@ -43,7 +43,7 @@
           <i data-feather="trash-2" class="remove-item"></i>
         </div>
         <div class="cart-item">
-          <img src="img/products/coffee-package.jpg" alt="Product 1">
+          <img src="img/products/coffee-package.jpg" alt="Product 1" />
           <div class="item-detail">
             <h3>Product 1</h3>
             <div class="item-price">IDR 30k</div>
@@ -51,7 +51,7 @@
           <i data-feather="trash-2" class="remove-item"></i>
         </div>
         <div class="cart-item">
-          <img src="img/products/coffee-package.jpg" alt="Product 1">
+          <img src="img/products/coffee-package.jpg" alt="Product 1" />
           <div class="item-detail">
             <h3>Product 1</h3>
             <div class="item-price">IDR 30k</div>
@@ -129,7 +129,7 @@
         <div class="product-card">
           <div class="product-icons">
             <a href=""><i data-feather="shopping-cart"></i></a>
-            <a href=""><i data-feather="eye"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
           </div>
           <div class="product-image">
             <img src="img/products/coffee-package.jpg" alt="Product 1" />
@@ -149,7 +149,7 @@
         <div class="product-card">
           <div class="product-icons">
             <a href=""><i data-feather="shopping-cart"></i></a>
-            <a href=""><i data-feather="eye"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
           </div>
           <div class="product-image">
             <img src="img/products/coffee-package.jpg" alt="Product 1" />
@@ -169,7 +169,7 @@
         <div class="product-card">
           <div class="product-icons">
             <a href=""><i data-feather="shopping-cart"></i></a>
-            <a href=""><i data-feather="eye"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
           </div>
           <div class="product-image">
             <img src="img/products/coffee-package.jpg" alt="Product 1" />
@@ -242,6 +242,30 @@
       </div>
     </footer>
     <!-- footer end -->
+
+    <!-- Modal box icon detail -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/coffee-package.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id possimus, soluta laborum facere perspiciatis fuga nemo odit natus at quibusdam sed iusto obcaecati, exercitationem nostrum.</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+            </div>
+            <div class="product-price">IDR 30k <span>IDR 55K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal box icon detail end -->
 
     <script>
       feather.replace();
