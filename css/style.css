@@ -264,6 +264,10 @@ body {
 
 .about .row .about-img img {
   width: 100%;
+  mask-image: url(../img/menu/splash.svg);
+  mask-size: 70%;
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
 
 .about .row .content {
